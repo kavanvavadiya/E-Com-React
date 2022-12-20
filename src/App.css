@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body{
+  overflow-x: hidden;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: yellow;
+}
+
+/* 
+.card-container {
+	position: relative;
+	width: 92%;
+	padding-left: 10px;
+
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	overflow-x: auto;
+	overflow-y: visible;
+	scroll-behavior: smooth;
+}
+
+.card-container::-webkit-scrollbar {
+	display: none;
+} */
+.prodimage{
+  display: block;
+  
+ margin: auto;
 }
